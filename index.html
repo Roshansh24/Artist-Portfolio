@@ -1,244 +1,138 @@
 <!doctype html>
 <html lang="ar" dir="rtl">
-  <head>
+<head>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" integrity="sha384-nU14brUcp6StFntEOOEBvcJm4huWjB0OcIeQ3fltAfSmuZFrkAif0T+UtNGlKKQv" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.rtl.min.css" 
+        integrity="sha384-nU14brUcp6StFntEOOEBvcJm4huWjB0OcIeQ3fltAfSmuZFrkAif0T+UtNGlKKQv" crossorigin="anonymous">
 
-    <!--[if IE]>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-
-    <link href="IEStyleSheet.css" rel="stylesheet" />
-    <![endif]-->
-
-    <!--[if !IE]> -->
-    <link href="StyleSheet.css" rel="stylesheet" type="text/css" media="only screen" />
-    <link href="MobileStyleSheet.css" rel="stylesheet" type="text/css" media="only screen and (max-device-width: 480px) , only screen and (-webkit-min-device-pixel-ratio: 2) , screen and (-webkit-device-pixel-ratio:1.5)" />
-    <!-- <![endif]-->
-
-<!--[if IEMobile]> 
-    <script src="http://html5shiv.googlecode.com/svn/trunk/html5.js"></script>
-    <script src="http://css3-mediaqueries-js.googlecode.com/svn/trunk/css3-mediaqueries.js"></script>
-
-    <link href="MobileStyleSheet.css" rel="stylesheet" />
-<![endif]-->
+    <!-- Custom CSS -->
+    <link href="style.css" rel="stylesheet" type="text/css" />
+    
     <title>Artist Portfolio</title>
-  </head>
-  <div class="alert alert-warning alert-dismissible fade show" role="alert">
-    .Viewing the page on a Desktop is recommended
-    <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
-  </div>
-  <body>
-    <!-- navbar markup --> 
+</head>
+
+<body>
+    <!-- Alert -->
+    <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        Viewing the page on a Desktop is recommended
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+    </div>
+
+    <!-- Navbar -->
     <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
-        <a class="navbar-brand" href="#">Dwayne Smith - Artist</a> 
-        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
+        <a class="navbar-brand" href="#">Dwayne Smith - Artist</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup" 
+            aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
         </button>
         <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-          <div class="navbar-nav">
-            <a class="nav-item nav-link active" href="#about">About<span class="sr-only"></span></a>
-            <a class="nav-item nav-link" href="#Paintings">Paintings</a>
-            <a class="nav-item nav-link" href="#Contact">Contact</a>
-          </div>
+            <div class="navbar-nav">
+                <a class="nav-item nav-link active" href="#about">About</a>
+                <a class="nav-item nav-link" href="#Paintings">Paintings</a>
+                <a class="nav-item nav-link" href="#Contact">Contact</a>
+            </div>
         </div>
-      </nav>
-      <!-- about -->
-      <div class="jumbotron jumbotron-fluid">
+    </nav>
+
+    <!-- About Section -->
+    <div class="jumbotron jumbotron-fluid">
         <div class="container" id="about">
-          <div class="card text-bg-info mb-3" style="max-width: 18rem;"></div>
+            <div class="card text-bg-info mb-3" style="max-width: 18rem;"></div>
             <img src="photos/Screenshot_2023-09-20-12-33-29-95.jpg" alt="Photo of Dwayne Smith" width="200" class="float-right"/>
-          <h1 class="display-4">Dwayne Smith - Painter of Dreams</h1>
-        
-          <p class="lead ">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi suscipit risus a lacus consequat laoreet. Nullam at odio vehicula tellus vulputate fermentum fringilla ac est. Phasellus congue viverra metus sit amet hendrerit. Suspendisse mattis, urna sit amet pellentesque sollicitudin, lorem ipsum luctus ligula, ut sollicitudin velit augue ac magna. Nullam a efficitur ipsum. Nam vel tortor urna. Phasellus sed laoreet neque. Nunc scelerisque, mi vel ullamcorper vehicula, eros lacus dapibus sapien, sit amet faucibus nibh neque eget enim.</p>
+            <h1 class="display-4">Dwayne Smith - Painter of Dreams</h1>
+            <p class="lead">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit...
+            </p>
         </div>
-        </div>
-      </body>
-      <div class="row mt-4">
-        <div class="row mt-4">
-        <h1 class="display-4 text-center">Description</h1>
-      <div class="container text-center">
-        <p class="tertiary">Timeless and tasteful, or modern and messy, flowers demand to be examined. I use multi-layered wax paint to create highly textured, three-dimension works on canvas and paper. I'm inspired by the color, wildness and creativity of springtime. I also recreate wedding bouquets and other meaningful arrangements to capture these focal points forever.
-
-            In this collection, I've focused on the wildflowers of Maine, often growing unencumbered and inconspicuously. But they still take my breath away. Forget the demure; these flowers burst with energy, life and texture, layer upon layer of evolution and growth. They challenge your expectations of the everyday.</p>
-      </div>
-        </div>
-        <div class="row mt-4">
-            <div class="container text-center" id="Paintings">
-              <div class="text-bg-dark p-3"></div>
-        <h1 class="display-4">Paintings</h1>
-        <div class="row">
-          <div class="col">
-            <img src="photos/8.jpg" class="img-fluid" alt="Responsive image">
-          </div>
-          <div class="col">
-            <img src="photos/2.jpg" class="img-fluid" alt="Responsive image">
-          </div>
-          <div class="col">
-            <img src="photos/3.jpg" class="img-fluid" alt="Responsive image">
-          </div>
-        </div>
-        <div class="row mt-4">
-            <div class="col">
-              <img src="photos/5.jpg" class="img-fluid" alt="Responsive image">
-            </div>
-            <div class="col">
-              <img src="photos/7.jpg" class="img-fluid" alt="Responsive image">
-            </div>
-            <div class="col">
-              <img src="photos/6.jpg" class="img-fluid" alt="Responsive image">
-            </div>
-          </div>
-      </div>
-        </div>
-      <div class="row mt-4">
-        <div class="row mt-4">
-          <div class="text-bg-dark p-3"></div>
-      <div class="container text-center" id="Contact">
-        <h1 class="display-4">Contact The Artist</h1>
-        <form class="row g-3">
-          <div class="col-md-6">
-            <label for="inputEmail4" class="form-label">Email</label>
-            <input type="email" class="form-control" id="inputEmail4">
-          </div>
-          <div class="col-md-6">
-            <label for="inputPassword4" class="form-label">Mobile No</label>
-            <input type="password" class="form-control" id="inputPassword4">
-          </div>
-          <div class="col-12">
-            <label for="inputAddress" class="form-label">Address 1</label>
-            <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
-          </div>
-          <div class="col-12">
-            <label for="inputAddress2" class="form-label">Address 2</label>
-            <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
-          </div>
-          <div class="col-md-6">
-            <label for="inputCity" class="form-label">City</label>
-            <input type="text" class="form-control" id="inputCity">
-          </div>
-          <div class="col-md-4">
-            <label for="inputState" class="form-label">State</label>
-            <select id="inputState" class="form-select">
-              <option selected>Choose...</option>
-              <option>Karnataka</option>
-              <option>Tamil Nadu</option>
-              <option>Other</option>
-            </select>
-          </div>
-          <div class="col-md-2">
-            <label for="inputZip" class="form-label">Zip</label>
-            <input type="text" class="form-control" id="inputZip">
-          </div>
-          <div class="col-12">
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" id="gridCheck">
-              <label class="form-check-label" for="gridCheck">
-                Check me out
-              </label>
-            </div>
-          </div>
-          <div class="col-12">
-            <button type="submit" class="btn btn-primary">Submit</button>
-          </div>
-        </form>
     </div>
-      </div>
-      </div>
-      <div class="row mt-4">
-        <div class="row mt-4">
-          <div class="row mt-4">
+
+    <!-- Description -->
+    <div class="row mt-4">
+        <h1 class="display-4 text-center">Description</h1>
+        <div class="container text-center">
+            <p class="tertiary">Timeless and tasteful, or modern and messy, flowers demand to be examined...</p>
+        </div>
+    </div>
+
+    <!-- Paintings -->
+    <div class="row mt-4">
+        <div class="container text-center" id="Paintings">
+            <h1 class="display-4">Paintings</h1>
+            <div class="row">
+                <div class="col"><img src="photos/8.jpg" class="img-fluid" alt="Responsive image"></div>
+                <div class="col"><img src="photos/2.jpg" class="img-fluid" alt="Responsive image"></div>
+                <div class="col"><img src="photos/3.jpg" class="img-fluid" alt="Responsive image"></div>
+            </div>
             <div class="row mt-4">
-      <head>
-        <style>
-        footer {
-          text-align: center;
-          padding: 5px;
-          background-color: DarkSalmon;
-          color: white;
-        }
-        </style>
-        </head>
-        <body>
-          <div class="text-bg-dark p-3"></div>
-        <footer>
-          <p>Designed in View of a Project by Team Rocket<br>
-            <br>Members:Prakash V<br>
-            Roshan S H <br>
-            Rahul S Rao <br>
-            Lohith Kumar N <br>
-            Reach out to us at
-            <a href="conh22790@gmail.com">conh22790@gmail.com</a></p>
-        </footer>
-        <footer class="bg-white">
-          <div class="container py-5">
-            <div class="row py-4">
-              <div class="col-lg-4 col-md-6 mb-4 mb-lg-0"><img src="img/logo.png" alt="" width="180" class="mb-3">
-                <p class="font-italic text-muted">Artists create objects that are beautiful, thought provoking, and sometimes shocking. They often strive to communicate ideas or feelings through their art<br>
-                  Rahul~
-
-                </p>
-                <ul class="list-inline mt-4">
-                  <li class="list-inline-item"><a href="#" target="_blank" title="twitter"><i class="fa fa-twitter"></i></a></li>
-                  <li class="list-inline-item"><a href="#" target="_blank" title="facebook"><i class="fa fa-facebook"></i></a></li>
-                  <li class="list-inline-item"><a href="#" target="_blank" title="instagram"><i class="fa fa-instagram"></i></a></li>
-                  <li class="list-inline-item"><a href="#" target="_blank" title="pinterest"><i class="fa fa-pinterest"></i></a></li>
-                  <li class="list-inline-item"><a href="#" target="_blank" title="vimeo"><i class="fa fa-vimeo"></i></a></li>
-                </ul>
-              </div>
-              <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-                <h6 class="text-uppercase font-weight-bold mb-4">Shop</h6>
-                <ul class="list-unstyled mb-0">
-                
-               
-                  <li class="mb-2"><a href="#" class="text-muted">Artist</a></li>
-                  <li class="mb-2"><a href="#" class="text-muted">About</a></li>
-                </ul>
-              </div>
-              <div class="col-lg-2 col-md-6 mb-4 mb-lg-0">
-                <h6 class="text-uppercase font-weight-bold mb-4">Company</h6>
-                <ul class="list-unstyled mb-0">
-                 
-                  <li class="mb-2"><a href="#" class="text-muted">Portfolio</a></li>
-                  <li class="mb-2"><a href="#" class="text-muted">Paintings</a></li>
-                 
-                </ul>
-              </div>
-              <div class="col-lg-4 col-md-6 mb-lg-0">
-                <h6 class="text-uppercase font-weight-bold mb-4">Newsletter</h6>
-                <p class="text-muted mb-4">True art is channelled through the loving heart, guided by emotions that stir the soul to loving bonds and the sort of imagination that is free and child-like in its sense of wonder and joy<br>
-                  Lohith~
-
-                </p>
-                
-              </div>
+                <div class="col"><img src="photos/5.jpg" class="img-fluid" alt="Responsive image"></div>
+                <div class="col"><img src="photos/7.jpg" class="img-fluid" alt="Responsive image"></div>
+                <div class="col"><img src="photos/6.jpg" class="img-fluid" alt="Responsive image"></div>
             </div>
-          </div>
-      
-          <!-- Copyrights -->
-          <div class="bg-light py-4">
-            <div class="container text-center">
-              <p class="text-muted mb-0 py-2">© 2023 Team-Rocket All rights reserved</p>
-            </div>
-          </div>
-        </footer>
-        <!-- End -->
+        </div>
+    </div>
 
-    <!-- Optional JavaScript; choose one of the two! -->
+    <!-- Contact Form -->
+    <div class="row mt-4">
+        <div class="container text-center" id="Contact">
+            <h1 class="display-4">Contact The Artist</h1>
+            <form class="row g-3">
+                <div class="col-md-6">
+                    <label for="inputEmail4" class="form-label">Email</label>
+                    <input type="email" class="form-control" id="inputEmail4">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputMobile" class="form-label">Mobile No</label>
+                    <input type="text" class="form-control" id="inputMobile">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress" class="form-label">Address 1</label>
+                    <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+                </div>
+                <div class="col-12">
+                    <label for="inputAddress2" class="form-label">Address 2</label>
+                    <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+                </div>
+                <div class="col-md-6">
+                    <label for="inputCity" class="form-label">City</label>
+                    <input type="text" class="form-control" id="inputCity">
+                </div>
+                <div class="col-md-4">
+                    <label for="inputState" class="form-label">State</label>
+                    <select id="inputState" class="form-select">
+                        <option selected>Choose...</option>
+                        <option>Karnataka</option>
+                        <option>Tamil Nadu</option>
+                        <option>Other</option>
+                    </select>
+                </div>
+                <div class="col-md-2">
+                    <label for="inputZip" class="form-label">Zip</label>
+                    <input type="text" class="form-control" id="inputZip">
+                </div>
+                <div class="col-12">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" id="gridCheck">
+                        <label class="form-check-label" for="gridCheck"> Check me out </label>
+                    </div>
+                </div>
+                <div class="col-12">
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </div>
+            </form>
+        </div>
+    </div>
 
-    <!-- Option 1: Bootstrap Bundle with Popper -->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <!-- Footer -->
+    <footer>
+        <p>Designed as a solo project by Roshan S H<br>
+        Reach out at <a href="mailto:conh22790@gmail.com">conh22790@gmail.com</a></p>
+    </footer>
 
-    <!-- Option 2: Separate Popper and Bootstrap JS -->
-    <!--
-    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js" integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+" crossorigin="anonymous"></script>
-    -->
-  </body>
+    <!-- Bootstrap JS -->
+    <script src="script.js"></script>
+</body>
 </html>
